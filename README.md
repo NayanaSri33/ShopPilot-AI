@@ -82,15 +82,6 @@ server-side against this same catalog before anything is charged — an
 agent buyer can't pay a stale or hallucinated price any more than a
 human can.
 
-## Not built yet (honest roadmap, not hidden)
-
-- Razorpay webhook (`payment.captured`) as a backup to the client-side
-  `handler` callback, for the case where a browser tab closes mid-payment
-- Merchant auth backed by the `merchants` table (currently a
-  `localStorage`-based demo login on the frontend — clearly a stand-in,
-  not a security claim)
-- Bound-enforcement beyond the per-order coupon cap (e.g. per-customer
-  discount history, velocity limits)
 
 ---
 
